@@ -20,3 +20,9 @@ flyzy小站交流群：http://t.me/flyzyxiaozhan
 
 ### VPS信息汇总
 [VPS GO](https://www.vpsgo.com)
+
+yum -y install git
+git clone -b master https://github.com/flyzy2005/ss-fly
+ss-fly/ss-fly.sh -i flyzy2005.com 1024
+ss-fly/ss-fly.sh -bbr
+sysctl net.ipv4.tcp_available_congestion_control
